@@ -21,8 +21,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/KDAB/KDSoap.git",
-                    "branch": "master",
-                    "commit": "a083a7ee192e817d0257b8e9c973facc14d9333c"
+                    "commit": "eb7eb333302dc4e7dd095940eca6e20ed2a5baeb"
                 }
             ]
         },
