@@ -35,15 +35,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.com/caspermeijn/onvifviewer.git",
-                    "tag": "v0.5",
-                    "commit": "07064ee340904d65fd5e5eb3c25b73c8fea28389"
-                },
-                {
-                    "type": "git",
-                    "url": "https://github.com/KDE/breeze-icons.git",
-                    "tag": "v5.48.0",
-                    "commit": "576471de8ad6c14ddc9419c9be39c6a3b7b8f3ca",
-                    "dest": "3rdparty/breeze-icons"
+                    "tag": "v0.6",
+                    "commit": "38bcaa7b641f8a35c53120bbb67d2cf94bf202ff"
                 }
             ]
         }
