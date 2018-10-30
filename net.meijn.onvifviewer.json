@@ -35,8 +35,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.com/caspermeijn/onvifviewer.git",
-                    "tag": "v0.7",
-                    "commit": "e3a00ca9609c0fb5c4b72f7a53be74491bdabccd"
+                    "tag": "v0.8",
+                    "commit": "de070faf1d3785f3a0f52073766f838d67316c12"
                 }
             ]
         }
