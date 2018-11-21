@@ -30,6 +30,7 @@
             "buildsystem": "cmake-ninja",
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+                "-DUSE_BREEZE_ICONS=ON"
             ],
             "sources": [
                 {
