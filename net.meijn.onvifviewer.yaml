@@ -1,11 +1,12 @@
 ---
 app-id: net.meijn.onvifviewer
 runtime: org.kde.Platform
-runtime-version: '5.11'
+runtime-version: '5.12'
 sdk: org.kde.Sdk
 command: onvifviewer
 finish-args:
 - "--socket=x11"
+- "--socket=wayland"
 - "--device=dri"
 - "--share=ipc"
 - "--share=network"
@@ -28,8 +29,8 @@ modules:
   sources:
   - type: git
     url: https://gitlab.com/caspermeijn/onvifviewer.git
-    tag: v0.9
-    commit: 76d7e758fe3c6ff47d4b44b0a9f2b99221d2ca2a
+    tag: v0.10
+    commit: b34c58d99e5399bd7ee88bf6feea93bfa0decba0
     
 cleanup:
 - "/bin/kdwsdl2cpp"
