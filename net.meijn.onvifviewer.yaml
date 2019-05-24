@@ -19,7 +19,8 @@ modules:
   sources:
   - type: git
     url: https://github.com/KDAB/KDSoap.git
-    commit: eb7eb333302dc4e7dd095940eca6e20ed2a5baeb
+    tag: kdsoap-1.8.0
+    commit: 7585cce5cb516f64ae89a962c3856fb456bd50f2
     
 - name: onvifviewer
   buildsystem: cmake-ninja
