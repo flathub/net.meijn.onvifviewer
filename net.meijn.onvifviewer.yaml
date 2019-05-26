@@ -30,8 +30,8 @@ modules:
   sources:
   - type: git
     url: https://gitlab.com/caspermeijn/onvifviewer.git
-    tag: v0.10
-    commit: b34c58d99e5399bd7ee88bf6feea93bfa0decba0
+    tag: v0.11
+    commit: 9b8a949657c9ae605ec7aed1b10a4ce5979dee7e
     
 cleanup:
 - "/bin/kdwsdl2cpp"
