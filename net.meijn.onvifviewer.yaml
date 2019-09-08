@@ -26,12 +26,11 @@ modules:
   buildsystem: cmake-ninja
   config-opts:
   - "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
-  - "-DUSE_BREEZE_ICONS=ON"
   sources:
   - type: git
     url: https://gitlab.com/caspermeijn/onvifviewer.git
-    tag: v0.11
-    commit: 9b8a949657c9ae605ec7aed1b10a4ce5979dee7e
+    tag: v0.12
+    commit: 0cdeb2c1c05bab6ec949338c20baa8944736aa61
     
 cleanup:
 - "/bin/kdwsdl2cpp"
