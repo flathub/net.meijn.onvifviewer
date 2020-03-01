@@ -22,6 +22,15 @@ modules:
     tag: kdsoap-1.9.0
     commit: fb0e905e242c2044fd25683a406eb6d369db052f
     
+- name: kdsoap-ws-discovery-client
+  buildsystem: cmake-ninja
+  config-opts:
+  - "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+  sources:
+  - type: git
+    url: https://gitlab.com/caspermeijn/kdsoap-ws-discovery-client.git
+    commit: 7c4dc0eef6678e46195b7718fc1ade4318fb1383
+    
 - name: onvifviewer
   buildsystem: cmake-ninja
   config-opts:
