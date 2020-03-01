@@ -1,7 +1,7 @@
 ---
 app-id: net.meijn.onvifviewer
 runtime: org.kde.Platform
-runtime-version: '5.12'
+runtime-version: '5.13'
 sdk: org.kde.Sdk
 command: onvifviewer
 finish-args:
@@ -19,8 +19,17 @@ modules:
   sources:
   - type: git
     url: https://github.com/KDAB/KDSoap.git
-    tag: kdsoap-1.8.0
-    commit: 7585cce5cb516f64ae89a962c3856fb456bd50f2
+    tag: kdsoap-1.9.0
+    commit: fb0e905e242c2044fd25683a406eb6d369db052f
+    
+- name: kdsoap-ws-discovery-client
+  buildsystem: cmake-ninja
+  config-opts:
+  - "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+  sources:
+  - type: git
+    url: https://gitlab.com/caspermeijn/kdsoap-ws-discovery-client.git
+    commit: 7c4dc0eef6678e46195b7718fc1ade4318fb1383
     
 - name: onvifviewer
   buildsystem: cmake-ninja
