@@ -39,7 +39,7 @@ modules:
   - type: git
     url: https://gitlab.com/caspermeijn/onvifviewer.git
     tag: v0.13
-    commit: 72639d1c096922c7d02a8bc72c4fc8e8b0a32b93
+    commit: 78bb74ae44e9823b47b05e2f2bcde591b748e9dc
     
 cleanup:
 - "/bin/kdwsdl2cpp"
