@@ -29,7 +29,7 @@ modules:
   sources:
   - type: git
     url: https://gitlab.com/caspermeijn/kdsoap-ws-discovery-client.git
-    commit: 7c4dc0eef6678e46195b7718fc1ade4318fb1383
+    commit: dcefb65c88e76f1f9eda8b0318006e93d15a0e1e
     
 - name: onvifviewer
   buildsystem: cmake-ninja
