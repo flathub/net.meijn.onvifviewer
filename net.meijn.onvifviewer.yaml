@@ -21,7 +21,7 @@ modules:
     url: https://github.com/KDAB/KDSoap.git
     tag: kdsoap-1.10.0
     commit: ea2d532bcef8a84991b137b0bfc1716d28b2eb67
-    
+
 - name: kdsoap-ws-discovery-client
   buildsystem: cmake-ninja
   config-opts:
@@ -30,7 +30,7 @@ modules:
   - type: git
     url: https://gitlab.com/caspermeijn/kdsoap-ws-discovery-client.git
     commit: dcefb65c88e76f1f9eda8b0318006e93d15a0e1e
-    
+
 - name: onvifviewer
   buildsystem: cmake-ninja
   config-opts:
@@ -40,12 +40,12 @@ modules:
     url: https://gitlab.com/caspermeijn/onvifviewer.git
     tag: v0.13
     commit: 78bb74ae44e9823b47b05e2f2bcde591b748e9dc
-    
+
 cleanup:
 - "/bin/kdwsdl2cpp"
 - "/include"
-- "/lib/pkgconfig"
 - "/lib/cmake"
-- "/share/mkspecs"
 - "/lib/libkdsoap-server.so*"
+- "/lib/pkgconfig"
 - "/share/doc"
+- "/share/mkspecs"
